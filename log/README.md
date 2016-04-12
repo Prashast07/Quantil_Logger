@@ -3,8 +3,11 @@ Quantil Logger
 ==============
 
 git clone https://github.com/Prashast07/Quantil_Logger.git
+
 cd log
+
 mvn clean install
+
 cd src/main/resources/
 ./generate.sh <DATA_PATH>
  Example : ./generate.sh /Users/Prashast/Desktop/log/src/main/resources/generateLogFor1Day.in
