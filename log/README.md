@@ -10,11 +10,11 @@ mvn clean install
 
 cd src/main/resources/
 
-./generate.sh <DATA_PATH>
+./generate.sh [DATA_PATH]
 
   Example : ./generate.sh /Users/Prashast/Desktop/log/src/main/resources/generateLogFor1Day.in
   
-./query.sh <DATA_PATH>
+./query.sh [DATA_PATH]
 
   Example : ./query.sh /Users/Prashast/Desktop/log/src/main/resources/generateLogFor1Day.in
   
