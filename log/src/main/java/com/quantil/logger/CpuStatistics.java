@@ -31,7 +31,6 @@ public class CpuStatistics {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("(").append(dateFormat.format(new Date(timeStampInSeconds * 1000)).toString()).append(",").append(cpuUsage).append("%").append(")");
-//		builder.append("(").append(timeStampInSeconds).append(",").append(cpuUsage).append("%").append(")");
 		return builder.toString();
 	}
 
